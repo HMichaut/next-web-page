@@ -1,0 +1,150 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* 
+End reset
+*/
+
+.navbar {
+  height: 48px;
+  width: 100%;
+  background-color: aqua;
+}
+
+.error-div {
+  height: 22px;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: yellow;
+}
+
+.main-content {
+  padding-top: 32px;
+  height: 845px;
+  width: 100%;
+  background-color: pink;
+}
+
+.pop-articles {
+  height: 208px;
+  width: 100%;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  background-color: purple;
+}
+
+.top-band {
+  height: 181px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin-left: 312.5px;
+  margin-right: 312.5px;
+  margin-bottom: 10px;
+  background-color: royalblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 51px;
+  width: 231px;
+  background-color: slategrey;
+}
+
+.motto {
+  height: 48px;
+  width: 289px;
+  background-color: red;
+}
+
+.link-grid {
+  display: grid;
+  grid-gap: .5rem;
+  grid-template-columns: repeat(8,1fr);
+  grid-template-rows: repeat(4,144px);
+  padding-left: 32px;
+  padding-right: 32px;
+  margin-left: 152.5px;
+  margin-right: 152.5px;
+  background-color: sandybrown;
+}
+
+.link-one {
+  grid-column: 1/5;
+  grid-row: 1/span 3;
+  background-color: seagreen;
+}
+
+.link-two {
+  grid-column: 5/7;
+  grid-row: 1/span 2;
+  background-color: seagreen;
+}
+
+.link-three {
+  grid-column: 1/5;
+  grid-row: 4/span 2;
+  background-color: seagreen;
+}
+
+.link-four {
+  grid-column: 7/9;
+  grid-row: 1/span 2;
+  background-color: seagreen;
+}
+
+.link-five {
+  grid-column: 5/9;
+  grid-row: 3/span 3;
+  background-color: seagreen;
+}

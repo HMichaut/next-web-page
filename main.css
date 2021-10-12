@@ -149,7 +149,11 @@ End reset
   background-color: seagreen;
 }
 
-@media (max-width:1023px) {
+.conf-link {
+  display: none;
+}
+
+@media (max-width:1024px) {
   .logo {
     height: 108px;
     width: 447px;
@@ -173,7 +177,6 @@ End reset
     margin-left: 64px;
     margin-right: 64px;
     margin-bottom: 40px;
-    background-color: royalblue;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -184,13 +187,11 @@ End reset
     padding-top: 32px;
     height: 1039px;
     width: 100%;
-    background-color: pink;
   }
 
   .motto {
     height: 27px;
     width: 100%;
-    background-color: red;
   }
 
   .link-grid {
@@ -235,4 +236,42 @@ End reset
     padding-bottom: 64px;
     background-color: purple;
   }
+}
+
+@media (max-width:768px) {
+  .logo {
+    height: 84px;
+    width: 320px;
+  }
+
+  .link-grid {
+    display: flex;
+    overflow: auto;
+    height: 630px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .conf-link {
+    display: block;
+    height: 180px;
+    width: 100%;
+    background-color: aqua;
+  }
+}
+
+@media (max-width:425px) {
+  .logo {
+    height: 45px;
+    width: 188px;
+  }
+
+  .motto {
+    height: 27px;
+    width: 377px;
+  }
+
+
 }

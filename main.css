@@ -54,7 +54,6 @@ End reset
 .navbar {
   height: 48px;
   width: 100%;
-  background-color: aqua;
 }
 
 .error-div {
@@ -62,14 +61,13 @@ End reset
   width: 100%;
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: yellow;
+  background-color: rgb(255, 221, 51);
 }
 
 .main-content {
   padding-top: 32px;
   height: 845px;
   width: 100%;
-  background-color: pink;
 }
 
 .pop-articles {
@@ -77,7 +75,7 @@ End reset
   width: 100%;
   padding-top: 64px;
   padding-bottom: 64px;
-  background-color: purple;
+  background-color: rgb(247, 248, 248);
 }
 
 .top-band {
@@ -89,7 +87,6 @@ End reset
   margin-left: 312.5px;
   margin-right: 312.5px;
   margin-bottom: 10px;
-  background-color: royalblue;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -98,13 +95,54 @@ End reset
 .logo {
   height: 51px;
   width: 231px;
-  background-color: slategrey;
+}
+
+.logo svg {
+  visibility: visible!important;
+  font-size: 100%;
+  font: inherit;
+  color: rgba(0,204,204,var(--text-opacity));
+  --text-opacity: 1;
+  box-sizing: border-box;
+  outline: none;
+  border: 0 solid;
+  -webkit-font-smoothing: antialiased;
+  display: block;
+  height: auto;
+  max-width: 100%;
 }
 
 .motto {
   height: 48px;
   width: 289px;
-  background-color: red;
+  visibility: visible!important;
+  box-sizing: border-box;
+  outline: none;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  letter-spacing: -.025em;
+  --text-opacity: 1;
+  margin-bottom: 1rem;
+  color: rgba(80,86,102,var(--text-opacity));
+  text-align: center;
+  --text-opacity: 1;
+  color: rgba(80,86,102,var(--text-opacity));
+  visibility: visible!important;
+  box-sizing: border-box;
+  outline: none;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  margin-bottom: 2rem;
+  font-size: 32px;
+  display: block;
+  width: 25%;
+  margin-top: 3%;
 }
 
 .link-grid {
@@ -116,37 +154,36 @@ End reset
   padding-right: 32px;
   margin-left: 152.5px;
   margin-right: 152.5px;
-  background-color: sandybrown;
 }
 
 .link-one {
   grid-column: 1/5;
   grid-row: 1/span 3;
-  background-color: seagreen;
+  background-image: url(https://img-cdn.tnwcdn.com/image?fit=600%2C300&amp;url=https%3A%2F%2Fs3.amazonaws.com%2Fevents.tnw%2Fhardfork-2018%2Fuploads%2Fvisuals%2Fgoogle_2021-10-11-132455_twwv.jpeg&amp;signature=09b09cdc05df2515fd17194b87190d51)
 }
 
 .link-two {
   grid-column: 5/7;
   grid-row: 1/span 2;
-  background-color: seagreen;
+  background-image: url(https://img-cdn.tnwcdn.com/image?fit=600%2C300&amp;url=https%3A%2F%2Fs3.amazonaws.com%2Fevents.tnw%2Fhardfork-2018%2Fuploads%2Fvisuals%2Fgoogle_2021-10-11-132455_twwv.jpeg&amp;signature=09b09cdc05df2515fd17194b87190d51)
 }
 
 .link-three {
   grid-column: 1/5;
   grid-row: 4/span 2;
-  background-color: seagreen;
+  background-image: url(https://img-cdn.tnwcdn.com/image?fit=600%2C300&amp;url=https%3A%2F%2Fs3.amazonaws.com%2Fevents.tnw%2Fhardfork-2018%2Fuploads%2Fvisuals%2Fgoogle_2021-10-11-132455_twwv.jpeg&amp;signature=09b09cdc05df2515fd17194b87190d51)
 }
 
 .link-four {
   grid-column: 7/9;
   grid-row: 1/span 2;
-  background-color: seagreen;
+  background-image: url(https://img-cdn.tnwcdn.com/image?fit=600%2C300&amp;url=https%3A%2F%2Fs3.amazonaws.com%2Fevents.tnw%2Fhardfork-2018%2Fuploads%2Fvisuals%2Fgoogle_2021-10-11-132455_twwv.jpeg&amp;signature=09b09cdc05df2515fd17194b87190d51)
 }
 
 .link-five {
   grid-column: 5/9;
   grid-row: 3/span 3;
-  background-color: seagreen;
+  background-image: url(https://img-cdn.tnwcdn.com/image?fit=600%2C300&amp;url=https%3A%2F%2Fs3.amazonaws.com%2Fevents.tnw%2Fhardfork-2018%2Fuploads%2Fvisuals%2Fgoogle_2021-10-11-132455_twwv.jpeg&amp;signature=09b09cdc05df2515fd17194b87190d51)
 }
 
 .conf-link {
